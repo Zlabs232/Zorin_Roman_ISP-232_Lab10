@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "async\async.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coroutine", "Coroutine\Coroutine.csproj", "{BF446335-926C-4284-9527-B577B2273D1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{BE89F44D-DB65-469D-94F8-C74A2F768BD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{BF446335-926C-4284-9527-B577B2273D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF446335-926C-4284-9527-B577B2273D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF446335-926C-4284-9527-B577B2273D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE89F44D-DB65-469D-94F8-C74A2F768BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE89F44D-DB65-469D-94F8-C74A2F768BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE89F44D-DB65-469D-94F8-C74A2F768BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE89F44D-DB65-469D-94F8-C74A2F768BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
