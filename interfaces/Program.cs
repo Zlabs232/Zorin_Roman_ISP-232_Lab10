@@ -15,7 +15,9 @@ namespace interfaces
             Book book = new Book{Name = "Война и мир"};
             Console.WriteLine(book.Name);
 
-
+            Duck duck = new Duck();
+            ((IFlier)duck).Fly();
+            ((ISwimmer)duck).Swim();
         }
     }
 }

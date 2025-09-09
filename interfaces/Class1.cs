@@ -30,4 +30,18 @@
         public string Name { get; set; }
     }
 
+    public interface IFlier
+    {
+        void Fly();
+    }
+    public interface ISwimmer
+    {
+        void Swim();
+    }
+
+    public class Duck : IFlier, ISwimmer
+    {
+        public void Fly() => Console.WriteLine("Я летаю");
+        public void Swim() => Console.WriteLine("Я плыву");
+    }
 }
