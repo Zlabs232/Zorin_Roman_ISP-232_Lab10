@@ -32,6 +32,22 @@
                 Console.WriteLine($"{message}");
             };
             handler("Hello,World!");
+
+            Func<int, int> square = x => x * x;
+            Console.WriteLine(square(5));
+
+            Button button = new Button();
+            button.OnClick += () => Console.WriteLine("Кнопка нажата!");
+            button.Click();
+
+        }
+    }
+    public class Button
+    {
+        public event Action OnClick;
+        public void Click()
+        {
+            OnClick?.Invoke();
         }
     }
 }
