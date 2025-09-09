@@ -13,6 +13,18 @@
             };
 
             Console.WriteLine(monster.Description);
+
+            var products = new[]
+            {
+            new {Name = "Молоко", Price = 59.99, Category = "Продукты"},
+            new {Name = "Ноутбук", Price = 59.99, Category = "Электроника"},
+            new {Name = "Щётка для зубов", Price = 59.99, Category = "Гигиена"},
+            };
+
+            foreach(var product in products)
+            {
+                Console.WriteLine($"{product.Name} ({product.Category}) - {product.Price} Руб.");
+            }
         }
     }
 }
