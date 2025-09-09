@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        delegate void MessageHandler(string message);
         static void Main(string[] args)
         {
             var monster = new
@@ -25,6 +26,12 @@
             {
                 Console.WriteLine($"{product.Name} ({product.Category}) - {product.Price} Руб.");
             }
+
+            MessageHandler handler = delegate (string message)
+            {
+                Console.WriteLine($"{message}");
+            };
+            handler("Hello,World!");
         }
     }
 }
