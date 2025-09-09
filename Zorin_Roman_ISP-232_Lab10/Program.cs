@@ -3,6 +3,7 @@
     internal class Program
     {
         delegate void MessageHandler(string message);
+        delegate int MathOperation(int a, int b);
         static void Main(string[] args)
         {
             var monster = new
@@ -39,6 +40,10 @@
             Button button = new Button();
             button.OnClick += () => Console.WriteLine("Кнопка нажата!");
             button.Click();
+
+            MathOperation add = (a, b) => a + b;
+            Console.WriteLine(add(2,3));
+
 
         }
     }
