@@ -11,6 +11,11 @@ namespace interfaces
             {
                 item.MakeSound();
             }
+
+            Book book = new Book{Name = "Война и мир"};
+            Console.WriteLine(book.Name);
+
+
         }
     }
 }
