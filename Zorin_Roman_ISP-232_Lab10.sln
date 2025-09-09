@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zorin_Roman_ISP-232_Lab10", "Zorin_Roman_ISP-232_Lab10\Zorin_Roman_ISP-232_Lab10.csproj", "{B30D05BB-BBFB-48A4-A59A-FC8D36B53FA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B30D05BB-BBFB-48A4-A59A-FC8D36B53FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30D05BB-BBFB-48A4-A59A-FC8D36B53FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30D05BB-BBFB-48A4-A59A-FC8D36B53FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30D05BB-BBFB-48A4-A59A-FC8D36B53FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1981F79B-D88F-42F0-B67B-42FB3D8140D6}
+	EndGlobalSection
+EndGlobal
